@@ -1,0 +1,93 @@
+@import "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+
+body{
+	font-family:sans-serif;
+	background-image: url(bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.container{
+	width:380px;
+	margin: 10% auto;
+	border-radius:25px;
+	background-color: rgba(0,0,0,0.1);
+	box-shadow: 0 0 17px #333;
+}
+.header{
+	text-align:center;
+	padding-top:50px;
+	
+	
+}
+.header h1{
+	color:black;
+	font-size:50px;
+	margin-bottom:40px;
+	font-family: comic sans ms;
+
+}
+.header p{
+	margin-bottom:20px;
+	margin-top: 10px;
+	font-size: large;
+	font-family: cursive;
+	
+}
+.main{
+	text-align: center;
+	
+}
+.main input{
+	width:300px;
+	height:40px;
+	border:none;
+	outline:none;
+	padding-left:40px;
+	box-sizing:border-box;
+	font-size:15px;
+	color:#333;
+	margin-bottom:15px;
+	border-radius:200px;
+}
+.rig p{
+	color: white;
+	font-family: cursive;
+	font-size: medium;
+}
+.main button:hover,input:hover{
+	box-shadow:2px 2px 5px #555;
+	background-color: #7799d4;
+}
+.main input:hover{
+    box-shadow:2px 2px 5px #555;
+	background-color: pink;
+}
+
+.main button{
+	padding-left:0;
+	background-color:gray;
+	letter-spacing: 1px;
+	font-weight: bold;
+	margin-bottom: 20px;
+    height:40px;
+    width:200px;
+    border-radius: 100px;
+
+}
+.main span{
+	position:relative;
+}
+.main i{
+	position:absolute;
+	left:15px;
+	color:#333;
+	font-size: 16px;
+	top:2px;
+}
+.eye{
+	position:absolute;
+}
+#hide1{
+	display:none;
+}
